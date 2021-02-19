@@ -20,10 +20,10 @@
 ### 配置项说明
 | 配置项 |   说明   |   备注   |
 | ---- | ---- | ---- |
-|  $CORPID  |   企业ID   |   https://open.work.weixin.qq.com/api/doc/90000/90135/90665#corpid   |
+|   CORPID  |   企业ID   |   https://open.work.weixin.qq.com/api/doc/90000/90135/90665#corpid   |
 |   CORPSECRET   |  应用Secret    |   https://open.work.weixin.qq.com/api/doc/90000/90135/90665#secret   |
 |   AGENTID   |   应用ID   | https://open.work.weixin.qq.com/api/doc/90000/90135/90665#agentid |
-|   COLL_BACK_URL   |   回调URL   |   固定格式:`https://127.0.0.1/push/?type=body&hash=` 只需要替换127.0.0.1为你的域名即可   |
+|   COLL_BACK_URL   |   回调URL   |   固定格式:`https://127.0.0.1/push/?type=body&hash=` 只需要替换`https://127.0.0.1/push`为你的部署路径即可   |
 |   SEND_KEY   |   接口请求密钥   |  接口请求密钥,可以留空,配置了则需要在参数带上sendKey    |
 |   DESP_SIZE   |   消息正文长度   |   显示在卡片的消息正文长度,不建议过长   |
 |   SMS_CACHE_TIME   |   消息缓存时间   |   消息在Redis缓存的时间   |
