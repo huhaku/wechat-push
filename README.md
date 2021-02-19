@@ -55,7 +55,9 @@ function sct_send($title = '', $desp = '', $sendKey = '')
 ```
 
 ## // todo:
-	后续写个用Sqlite做缓存的版本
+	1.写个用Sqlite做缓存的版本
+	2.用消息队列应对大并发什么的
+	3.<del>可视化管理配置界面???</del>
 
 ## 效果
 
