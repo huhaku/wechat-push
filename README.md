@@ -1,10 +1,6 @@
----
-typora-root-url: img
----
-
 # 仿Server酱写的企业微信插件推送服务
 
-![rika](/rika.jpg)
+![rika](img/rika.jpg)
 
 ​																										**りかちゃんかぁいいーお持ち帰りー**
 
@@ -63,7 +59,7 @@ function sct_send($title = '', $desp = '', $sendKey = '')
 
 ## 效果
 
-![](/0.jpg)
+![](img/0.jpg)
 
-![1](/1.jpg)
+![1](img/1.jpg)
 
